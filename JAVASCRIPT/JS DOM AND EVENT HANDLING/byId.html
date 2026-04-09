@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="title">Welcome! CSE 16</h1>
+
+    <button onclick="changeText()">Click Me</button>
+
+    <script>
+        //Function that runs when button is clicked
+        function changeText(){
+            
+            //Step 1: Select element using getElementById
+            let heading= document.getElementById("title");
+
+            //Step 2: Change the text content
+            heading.innerText = "Hello Students! Welcome to javascript"
+
+            //Step 3: Change style dynamically
+            heading.style.color= "blue";
+        }
+    </script>
+</body>
+</html>
