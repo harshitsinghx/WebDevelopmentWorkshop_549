@@ -1,0 +1,11 @@
+body{
+    place-items: center;
+}
+.main{
+    display: grid;
+    background-color: #ff7474;
+    padding: 20px;
+    border-radius: 10px;
+    width: max-content;
+    place-items: center;
+}
